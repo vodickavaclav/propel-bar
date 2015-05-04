@@ -2,7 +2,8 @@
     "name": "tkraut/propel-bar",
     "require": {
         "tracy/tracy": "~2.3",
-        "nette/utils": "~2.3"
+        "nette/utils": "~2.3",
+        "nette/database": "~2.3"
     },
     "authors": [
         {
