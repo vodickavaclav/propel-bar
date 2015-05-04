@@ -145,7 +145,7 @@ class PropelBar extends Object implements IBarPanel, \BasicLogger
 	 */
 	public function getTotalTime()
 	{
-		return 1000 * array_sum(array_map(callback($this, 'extractTime'), $this->messages));
+		return 1000 * array_sum(array_map($this->extractTime, $this->messages));
 	}
 
 	/**
