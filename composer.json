@@ -5,6 +5,9 @@
         "nette/utils": "~2.3",
         "nette/database": "~2.3"
     },
+    "require-dev": {
+        "propel/propel1": "~1.6"
+    },
     "authors": [
         {
             "name": "Tomáš Kraut",
