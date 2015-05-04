@@ -9,5 +9,8 @@
             "name": "Tomáš Kraut",
             "email": "tomas.kraut@matfyz.cz"
         }
-    ]
+    ],
+    "autoload": {
+        "classmap": ["class/"]
+    }
 }
