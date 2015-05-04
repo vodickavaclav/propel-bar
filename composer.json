@@ -14,6 +14,7 @@
             "email": "tomas.kraut@matfyz.cz"
         }
     ],
+    "license": "ISC",
     "autoload": {
         "classmap": ["class/"]
     }
