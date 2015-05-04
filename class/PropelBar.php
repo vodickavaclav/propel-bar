@@ -137,7 +137,7 @@ class PropelBar extends Object implements IBarPanel, \BasicLogger
 	 */
 	public function extractLink($row)
 	{
-		return Helpers::editorLink($row['source'][0], $row['source'][1])->class('tracy-PropelBar-source');
+		return Helpers::editorLink($row['source'][0], $row['source'][1]);
 	}
 
 	/**
