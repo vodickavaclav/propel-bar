@@ -86,8 +86,8 @@ class PropelBar extends Object implements IBarPanel, \BasicLogger
 		if ($idx === null)
 			return '';
 		$field = $fields[$this->fieldIdx[$what]];
-		list($key, $value) = explode($this->inner, $field);
-		return $useKey === false ? $value : $key;
+		$exploded = explode($this->inner, $field);
+		return $exploded[$useKey === false ? 1 : 0];
 	}
 
 	/**
